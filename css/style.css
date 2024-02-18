@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+html , body{
+    width: 100%;
+    height: 100%;
+    font-family: Ubuntu;
+}
+
+
+
+::root{
+    --container-fluid:3% 15%;
+}
+
+#title{
+    background-color: #ff66d1;
+    
+}
+
+.h1-head{
+    font-size: 4rem;
+    font-family: Ubuntu;
+    color:rgba(115, 33, 59, 0.642);
+    font-weight:bolder;
+    margin-left: 12%;
+}
+
+.container-fluid{
+    padding-top:6%;
+}
+
+.navbar{
+    background-color:rgba(115, 33, 59, 0.642);
+    border-bottom: 2px solid rgb(0, 0, 0);
+}
+
+.nav-item{
+    padding:0px 12px;
+}
+
+
+.my-button{
+    margin-top: 14px;
+    height: 50px;
+    width: 152px;
+    margin-right: 23px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ml-btn-1{
+    margin-left: 12%;
+    margin-top: 6%;
+}
+.ml-btn-2{
+    margin-top: 6%;
+}
+
+.ayu > img{
+    height: 70%;
+    width: 42%;
+    object-fit: contain;
+    object-position: center center;
+}
+
+.ayu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+/* features section */
+#features{
+    padding: 4% 15%;
+    text-align: center;
+}
+
+.d{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+div > i{
+   color:#ff66d1;
+}
+div > i:hover{
+   color:#ff4444;
+   cursor:pointer;
+}
+
+.h3-class{
+    font-weight: bolder;
+}
+
+
+
+/* Testimonial Section */
+
+#testimonials{
+    text-align: center;
+    background-color: #ff66d1;
+}
+
+.h2-cl{
+    font-size: 3rem;
+    font-weight: bolder;
+    color: rgba(115, 33, 59, 0.642);
+    margin-bottom: 3%;
+}
+
+.testinomial-image{
+    width: 170px;
+    height: 170px;
+    object-fit: cover;
+    object-position: bottom center;
+    border-radius: 50%;
+}
+
+.h6-cl{
+    font-size: 1rem;
+    color: rgba(115, 33, 59, 0.642);
+    font-weight: bolder;
+}
+
+/* now the press section buddy  */
+
+#press{
+    text-align: center;
+    background-color: #ff66d1;
+    padding-bottom: 3%;
+}
+
+.press-logo{
+    width: 15%;
+    padding:0px 23px;
+}
+
+/* carousal item  */
+
+
+.carousel-item{
+    padding: 4% 15%;
+}
+
+
+
+/* card  */
+
+#pricing{
+    overflow-x:hidden ;
+    padding:50px;
+}
+
+
+.para{
+    font-size: 2rem;
+    color: rgba(107, 75, 12, 0.957);
+}
+
+
+/* CTA Section  */
+
+#cta{
+    background-color: #ff66d1;
+    color:rgba(115, 33, 59, 0.642);
+    padding: 4% 15%;
+    text-align: center;
+}
+
+.h3-cl{
+    font-size: 2.1rem;
+    color:rgba(115, 33, 59, 0.642);
+    line-height: 1;
+}
+
+.btnn{
+    margin-top: 12px;
+    padding:8px 23px;
+    margin-left:14px;
+}
+
+/* Footer Section  */
+
+#footer{
+    padding: 4% 15%;
+    text-align: center;
+}
+
+#footer > i{
+    color: #000000;
+}
+
+#footer > i:hover{
+    color: #fc0043;
+}
+
+.para-footer{
+    font-size: 1.2rem;
+}
+
+.social-icon{
+    margin:12px 23px;
+}
